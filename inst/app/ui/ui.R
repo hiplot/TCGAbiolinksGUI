@@ -1,16 +1,3 @@
-suppressPackageStartupMessages({
-    library(shiny)
-    library(shinyFiles)
-    library(TCGAbiolinks)
-    library(shinyBS)
-    library(shinyjs)
-    library(SummarizedExperiment)
-    library(plotly)
-    library(pathview)
-    library(reshape2)
-    library(shinydashboard)
-    library(clusterProfiler)
-})
 
 data(paths.hsa)
 pathways.id <- names(paths.hsa)
